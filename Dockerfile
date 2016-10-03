@@ -1,4 +1,4 @@
-FROM golang:1.6
+FROM golang:1.7
 MAINTAINER Jeremy Udit <jcudit@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive

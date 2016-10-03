@@ -15,4 +15,4 @@ test: build-container
 		-w $(GO_PROJECTS)/$(PROJECT) $(PROJECT) \
 		go test -v ../$(PROJECT)...
 
-.PHONY: build test
+.PHONY: build-container test
